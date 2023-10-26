@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset_originali\musei-gallerie-siti-archeologici_csv_rsd.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_originali\torri-costiere_csv_rsd.csv">
           <value>
             <Attribute>
