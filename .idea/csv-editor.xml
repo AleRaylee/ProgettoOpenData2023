@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset_originali\castelli.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_originali\castelli_csv_rsd.csv">
           <value>
             <Attribute>
