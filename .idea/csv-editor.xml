@@ -3,6 +3,27 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\dataset\forti-fortezze.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset\torri-costiere.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset_finali\castelli.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_finali\castelli_csv_rsd.csv">
           <value>
             <Attribute>
@@ -10,7 +31,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset_finali\forti-fortezze.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_finali\fortifortezze_csv_rsd.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset_finali\mappa-delle-strutture-ricettive.csv">
           <value>
             <Attribute>
               <option name="separator" value=";" />
