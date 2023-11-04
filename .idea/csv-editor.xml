@@ -24,13 +24,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset\listaComune.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\dataset\mappa-delle-strutture-ricettive.csv">
           <value>
             <Attribute>
