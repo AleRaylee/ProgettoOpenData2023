@@ -3,10 +3,38 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\dataset\Elenco-comuni-italiani.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset\castelli.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset\forti-fortezze.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset\listaComune.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset\mappa-delle-strutture-ricettive.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
             </Attribute>
           </value>
         </entry>
@@ -24,87 +52,52 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_finali\castelli_csv_rsd.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\forti-fortezze.csv">
+        <entry key="\dataset_finali\dataset_csv\castelli.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_finali\fortifortezze_csv_rsd.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\mappa-delle-strutture-ricettive.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\torri-costiere_csv_rsd.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_originali\Regione-Sicilia---Mappa-delle-strutture-ricettive.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value=";" />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_originali\castelli.csv">
+        <entry key="\dataset_finali\dataset_csv\comuni.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_originali\castelli_csv_rsd.csv">
+        <entry key="\dataset_finali\dataset_csv\forti-fortezze.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_originali\fortifortezze_csv_rsd.csv">
+        <entry key="\dataset_finali\dataset_csv\strutture_ricettive.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_originali\luoghi-gusto_csv_rsd.csv">
+        <entry key="\dataset_finali\dataset_csv\torri-costiere.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_originali\musei-gallerie-siti-archeologici_csv_rsd.csv">
+        <entry key="\dataset_finali\strutture_ricettive.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_originali\torri-costiere_csv_rsd.csv">
+        <entry key="\dataset_finali\torri-costiere.csv">
           <value>
             <Attribute>
-              <option name="separator" value=";" />
+              <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>

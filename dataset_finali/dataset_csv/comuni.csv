@@ -1,0 +1,391 @@
+Comune,Provincia,Codice_Istat
+Alcamo,TP,81001
+Buseto Palizzolo,TP,81002
+Calatafimi-Segesta,TP,81003
+Campobello di Mazara,TP,81004
+Castellammare del Golfo,TP,81005
+Castelvetrano,TP,81006
+Custonaci,TP,81007
+Erice,TP,81008
+Favignana,TP,81009
+Gibellina,TP,81010
+Marsala,TP,81011
+Mazara del Vallo,TP,81012
+Paceco,TP,81013
+Pantelleria,TP,81014
+Partanna,TP,81015
+Poggioreale,TP,81016
+Salaparuta,TP,81017
+Salemi,TP,81018
+Santa Ninfa,TP,81019
+San Vito Lo Capo,TP,81020
+Trapani,TP,81021
+Valderice,TP,81022
+Vita,TP,81023
+Petrosino,TP,81024
+Alia,PA,82001
+Alimena,PA,82002
+Aliminusa,PA,82003
+Altavilla Milicia,PA,82004
+Altofonte,PA,82005
+Bagheria,PA,82006
+Balestrate,PA,82007
+Baucina,PA,82008
+Belmonte Mezzagno,PA,82009
+Bisacquino,PA,82010
+Bolognetta,PA,82011
+Bompietro,PA,82012
+Borgetto,PA,82013
+Caccamo,PA,82014
+Caltavuturo,PA,82015
+Campofelice di Fitalia,PA,82016
+Campofelice di Roccella,PA,82017
+Campofiorito,PA,82018
+Camporeale,PA,82019
+Capaci,PA,82020
+Carini,PA,82021
+Castelbuono,PA,82022
+Casteldaccia,PA,82023
+Castellana Sicula,PA,82024
+Castronovo di Sicilia,PA,82025
+Cefalà Diana,PA,82026
+Cefalù,PA,82027
+Cerda,PA,82028
+Chiusa Sclafani,PA,82029
+Ciminna,PA,82030
+Cinisi,PA,82031
+Collesano,PA,82032
+Contessa Entellina,PA,82033
+Corleone,PA,82034
+Ficarazzi,PA,82035
+Gangi,PA,82036
+Geraci Siculo,PA,82037
+Giardinello,PA,82038
+Giuliana,PA,82039
+Godrano,PA,82040
+Gratteri,PA,82041
+Isnello,PA,82042
+Isola delle Femmine,PA,82043
+Lascari,PA,82044
+Lercara Friddi,PA,82045
+Marineo,PA,82046
+Mezzojuso,PA,82047
+Misilmeri,PA,82048
+Monreale,PA,82049
+Montelepre,PA,82050
+Montemaggiore Belsito,PA,82051
+Palazzo Adriano,PA,82052
+Palermo,PA,82053
+Partinico,PA,82054
+Petralia Soprana,PA,82055
+Petralia Sottana,PA,82056
+Piana degli Albanesi,PA,82057
+Polizzi Generosa,PA,82058
+Pollina,PA,82059
+Prizzi,PA,82060
+Roccamena,PA,82061
+Roccapalumba,PA,82062
+San Cipirello,PA,82063
+San Giuseppe Jato,PA,82064
+San Mauro Castelverde,PA,82065
+Santa Cristina Gela,PA,82066
+Santa Flavia,PA,82067
+Sciara,PA,82068
+Sclafani Bagni,PA,82069
+Termini Imerese,PA,82070
+Terrasini,PA,82071
+Torretta,PA,82072
+Trabia,PA,82073
+Trappeto,PA,82074
+Ustica,PA,82075
+Valledolmo,PA,82076
+Ventimiglia di Sicilia,PA,82077
+Vicari,PA,82078
+Villabate,PA,82079
+Villafrati,PA,82080
+Scillato,PA,82081
+Blufi,PA,82082
+Alcara li Fusi,ME,83001
+Alì,ME,83002
+Alì Terme,ME,83003
+Antillo,ME,83004
+Barcellona Pozzo di Gotto,ME,83005
+Basicò,ME,83006
+Brolo,ME,83007
+Capizzi,ME,83008
+Capo d'Orlando,ME,83009
+Capri Leone,ME,83010
+Caronia,ME,83011
+Casalvecchio Siculo,ME,83012
+Castel di Lucio,ME,83013
+Castell'Umberto,ME,83014
+Castelmola,ME,83015
+Castroreale,ME,83016
+Cesarò,ME,83017
+Condrò,ME,83018
+Falcone,ME,83019
+Ficarra,ME,83020
+Fiumedinisi,ME,83021
+Floresta,ME,83022
+Fondachelli-Fantina,ME,83023
+Forza d'Agrò,ME,83024
+Francavilla di Sicilia,ME,83025
+Frazzanò,ME,83026
+Furci Siculo,ME,83027
+Furnari,ME,83028
+Gaggi,ME,83029
+Galati Mamertino,ME,83030
+Gallodoro,ME,83031
+Giardini-Naxos,ME,83032
+Gioiosa Marea,ME,83033
+Graniti,ME,83034
+Gualtieri Sicaminò,ME,83035
+Itala,ME,83036
+Leni,ME,83037
+Letojanni,ME,83038
+Librizzi,ME,83039
+Limina,ME,83040
+Lipari,ME,83041
+Longi,ME,83042
+Malfa,ME,83043
+Malvagna,ME,83044
+Mandanici,ME,83045
+Mazzarrà Sant'Andrea,ME,83046
+Merì,ME,83047
+Messina,ME,83048
+Milazzo,ME,83049
+Militello Rosmarino,ME,83050
+Mirto,ME,83051
+Mistretta,ME,83052
+Moio Alcantara,ME,83053
+Monforte San Giorgio,ME,83054
+Mongiuffi Melia,ME,83055
+Montagnareale,ME,83056
+Montalbano Elicona,ME,83057
+Motta Camastra,ME,83058
+Motta d'Affermo,ME,83059
+Naso,ME,83060
+Nizza di Sicilia,ME,83061
+Novara di Sicilia,ME,83062
+Oliveri,ME,83063
+Pace del Mela,ME,83064
+Pagliara,ME,83065
+Patti,ME,83066
+Pettineo,ME,83067
+Piraino,ME,83068
+Raccuja,ME,83069
+Reitano,ME,83070
+Roccafiorita,ME,83071
+Roccalumera,ME,83072
+Roccavaldina,ME,83073
+Roccella Valdemone,ME,83074
+Rodì Milici,ME,83075
+Rometta,ME,83076
+San Filippo del Mela,ME,83077
+San Fratello,ME,83078
+San Marco d'Alunzio,ME,83079
+San Pier Niceto,ME,83080
+San Piero Patti,ME,83081
+San Salvatore di Fitalia,ME,83082
+Santa Domenica Vittoria,ME,83083
+Sant'Agata di Militello,ME,83084
+Sant'Alessio Siculo,ME,83085
+Santa Lucia del Mela,ME,83086
+Santa Marina Salina,ME,83087
+Sant'Angelo di Brolo,ME,83088
+Santa Teresa di Riva,ME,83089
+San Teodoro,ME,83090
+Santo Stefano di Camastra,ME,83091
+Saponara,ME,83092
+Savoca,ME,83093
+Scaletta Zanclea,ME,83094
+Sinagra,ME,83095
+Spadafora,ME,83096
+Taormina,ME,83097
+Torregrotta,ME,83098
+Tortorici,ME,83099
+Tripi,ME,83100
+Tusa,ME,83101
+Ucria,ME,83102
+Valdina,ME,83103
+Venetico,ME,83104
+Villafranca Tirrena,ME,83105
+Terme Vigliatore,ME,83106
+Acquedolci,ME,83107
+Torrenova,ME,83108
+Agrigento,AG,84001
+Alessandria della Rocca,AG,84002
+Aragona,AG,84003
+Bivona,AG,84004
+Burgio,AG,84005
+Calamonaci,AG,84006
+Caltabellotta,AG,84007
+Camastra,AG,84008
+Cammarata,AG,84009
+Campobello di Licata,AG,84010
+Canicattì,AG,84011
+Casteltermini,AG,84012
+Castrofilippo,AG,84013
+Cattolica Eraclea,AG,84014
+Cianciana,AG,84015
+Comitini,AG,84016
+Favara,AG,84017
+Grotte,AG,84018
+Joppolo Giancaxio,AG,84019
+Lampedusa e Linosa,AG,84020
+Licata,AG,84021
+Lucca Sicula,AG,84022
+Menfi,AG,84023
+Montallegro,AG,84024
+Montevago,AG,84025
+Naro,AG,84026
+Palma di Montechiaro,AG,84027
+Porto Empedocle,AG,84028
+Racalmuto,AG,84029
+Raffadali,AG,84030
+Ravanusa,AG,84031
+Realmonte,AG,84032
+Ribera,AG,84033
+Sambuca di Sicilia,AG,84034
+San Biagio Platani,AG,84035
+San Giovanni Gemini,AG,84036
+Santa Elisabetta,AG,84037
+Santa Margherita di Belice,AG,84038
+Sant'Angelo Muxaro,AG,84039
+Santo Stefano Quisquina,AG,84040
+Sciacca,AG,84041
+Siculiana,AG,84042
+Villafranca Sicula,AG,84043
+Acquaviva Platani,CL,85001
+Bompensiere,CL,85002
+Butera,CL,85003
+Caltanissetta,CL,85004
+Campofranco,CL,85005
+Delia,CL,85006
+Gela,CL,85007
+Marianopoli,CL,85008
+Mazzarino,CL,85009
+Milena,CL,85010
+Montedoro,CL,85011
+Mussomeli,CL,85012
+Niscemi,CL,85013
+Resuttano,CL,85014
+Riesi,CL,85015
+San Cataldo,CL,85016
+Santa Caterina Villarmosa,CL,85017
+Serradifalco,CL,85018
+Sommatino,CL,85019
+Sutera,CL,85020
+Vallelunga Pratameno,CL,85021
+Villalba,CL,85022
+Agira,EN,86001
+Aidone,EN,86002
+Assoro,EN,86003
+Barrafranca,EN,86004
+Calascibetta,EN,86005
+Catenanuova,EN,86006
+Centuripe,EN,86007
+Cerami,EN,86008
+Enna,EN,86009
+Gagliano Castelferrato,EN,86010
+Leonforte,EN,86011
+Nicosia,EN,86012
+Nissoria,EN,86013
+Piazza Armerina,EN,86014
+Pietraperzia,EN,86015
+Regalbuto,EN,86016
+Sperlinga,EN,86017
+Troina,EN,86018
+Valguarnera Caropepe,EN,86019
+Villarosa,EN,86020
+Aci Bonaccorsi,CT,87001
+Aci Castello,CT,87002
+Aci Catena,CT,87003
+Acireale,CT,87004
+Aci Sant'Antonio,CT,87005
+Adrano,CT,87006
+Belpasso,CT,87007
+Biancavilla,CT,87008
+Bronte,CT,87009
+Calatabiano,CT,87010
+Caltagirone,CT,87011
+Camporotondo Etneo,CT,87012
+Castel di Iudica,CT,87013
+Castiglione di Sicilia,CT,87014
+Catania,CT,87015
+Fiumefreddo di Sicilia,CT,87016
+Giarre,CT,87017
+Grammichele,CT,87018
+Gravina di Catania,CT,87019
+Licodia Eubea,CT,87020
+Linguaglossa,CT,87021
+Maletto,CT,87022
+Mascali,CT,87023
+Mascalucia,CT,87024
+Militello in Val di Catania,CT,87025
+Milo,CT,87026
+Mineo,CT,87027
+Mirabella Imbaccari,CT,87028
+Misterbianco,CT,87029
+Motta Sant'Anastasia,CT,87030
+Nicolosi,CT,87031
+Palagonia,CT,87032
+Paternò,CT,87033
+Pedara,CT,87034
+Piedimonte Etneo,CT,87035
+Raddusa,CT,87036
+Ramacca,CT,87037
+Randazzo,CT,87038
+Riposto,CT,87039
+San Cono,CT,87040
+San Giovanni la Punta,CT,87041
+San Gregorio di Catania,CT,87042
+San Michele di Ganzaria,CT,87043
+San Pietro Clarenza,CT,87044
+Sant'Agata li Battiati,CT,87045
+Sant'Alfio,CT,87046
+Santa Maria di Licodia,CT,87047
+Santa Venerina,CT,87048
+Scordia,CT,87049
+Trecastagni,CT,87050
+Tremestieri Etneo,CT,87051
+Valverde,CT,87052
+Viagrande,CT,87053
+Vizzini,CT,87054
+Zafferana Etnea,CT,87055
+Mazzarrone,CT,87056
+Maniace,CT,87057
+Ragalna,CT,87058
+Acate,RG,88001
+Chiaramonte Gulfi,RG,88002
+Comiso,RG,88003
+Giarratana,RG,88004
+Ispica,RG,88005
+Modica,RG,88006
+Monterosso Almo,RG,88007
+Pozzallo,RG,88008
+Ragusa,RG,88009
+Santa Croce Camerina,RG,88010
+Scicli,RG,88011
+Vittoria,RG,88012
+Augusta,SR,89001
+Avola,SR,89002
+Buccheri,SR,89003
+Buscemi,SR,89004
+Canicattini Bagni,SR,89005
+Carlentini,SR,89006
+Cassaro,SR,89007
+Ferla,SR,89008
+Floridia,SR,89009
+Francofonte,SR,89010
+Lentini,SR,89011
+Melilli,SR,89012
+Noto,SR,89013
+Pachino,SR,89014
+Palazzolo Acreide,SR,89015
+Rosolini,SR,89016
+Siracusa,SR,89017
+Solarino,SR,89018
+Sortino,SR,89019
+Portopalo di Capo Passero,SR,89020
+Priolo Gargallo,SR,89021

@@ -1,0 +1,414 @@
+@prefix : <http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4> .
+
+<http://www.turismosicilia.org/ontology/> rdf:type owl:Ontology ;
+                                                                         
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+
+xsd:string owl:equivalentClass xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#isIn
+
+:isIn rdf:type owl:ObjectProperty ;
+      
+      rdfs:range :Comuni ;
+      
+      rdfs:domain :MonumentoStorico .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haCodiceComune
+
+:haCodiceComune rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :MonumentoStorico ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haCodiceISTAT
+
+:haCodiceISTAT rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               owl:equivalentProperty :haCodiceIstat ;
+               
+               rdfs:range xsd:string ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haCodiceIstat
+
+:haCodiceIstat rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Comuni ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haComune
+
+:haComune rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :MonumentoStorico ;
+          
+          rdfs:range xsd:string ;
+          
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haConservazione
+
+:haConservazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :TorriCostiere ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haCronologia
+
+:haCronologia rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Castelli ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haCronologiaF
+
+:haCronologiaF rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Fortezze ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haDenominazione
+
+:haDenominazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :MonumentoStorico ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haGestore
+
+:haGestore rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :Fortezze ;
+           
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haGestoreT
+
+:haGestoreT rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haIconaTorri
+
+:haIconaTorri rdf:type owl:DatatypeProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haImmagine
+
+:haImmagine rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :MonumentoStorico ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haLatitudine
+
+:haLatitudine rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :MonumentoStorico ;
+              
+              rdfs:range xsd:double .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haLocalita
+
+:haLocalita rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haLocazioneStorica
+
+:haLocazioneStorica rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:domain :TorriCostiere ;
+                    
+                    rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haLongE
+
+:haLongE rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :TorriCostiere .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haLongitudine
+
+:haLongitudine rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               rdfs:range xsd:double .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haNome
+
+:haNome rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Comuni ;
+        
+        rdfs:range xsd:string .
+[ rdf:type owl:Axiom ;
+  rdfs:label "" ;
+  owl:annotatedTarget :Comuni ;
+  owl:annotatedSource :haNome ;
+  owl:annotatedProperty rdfs:domain
+] .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haNote
+
+:haNote rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :MonumentoStorico ;
+        
+        rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haProvincia
+
+:haProvincia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :MonumentoStorico ;
+             
+             rdfs:range xsd:string ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haS_L_M
+
+:haS_L_M rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :Fortezze ;
+         
+         rdfs:range xsd:string ;
+         
+         rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haSiglaProvincia
+
+:haSiglaProvincia rdf:type owl:DatatypeProperty ;
+                  
+                  rdfs:domain :Comuni ;
+                  
+                  rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haSitoWeb
+
+:haSitoWeb rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :MonumentoStorico .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haStatoConservazione
+
+:haStatoConservazione rdf:type owl:DatatypeProperty ;
+                      
+                      rdfs:domain :Fortezze ;
+                      
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haTipo
+
+:haTipo rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :TorriCostiere ;
+        
+        rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haTipologia
+
+:haTipologia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Fortezze ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haUbicazione
+
+:haUbicazione rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Fortezze ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#haUso
+
+:haUso rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :Fortezze ;
+       
+       rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#Castelli
+
+:Castelli rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#Comuni
+
+:Comuni rdf:type owl:Class ;
+        
+        rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#Fortezze
+
+:Fortezze rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#MonumentoStorico
+
+:MonumentoStorico rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/harub/ontologies/2023/9/untitled-ontology-4#TorriCostiere
+
+:TorriCostiere rdf:type owl:Class ;
+               
+               rdfs:subClassOf :MonumentoStorico .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Castelli
+                :Fortezze
+                :TorriCostiere
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
