@@ -80,6 +80,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset_finali\forti-fortezze.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_finali\strutture_ricettive.csv">
           <value>
             <Attribute>

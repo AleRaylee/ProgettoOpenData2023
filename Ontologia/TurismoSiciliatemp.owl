@@ -1,0 +1,415 @@
+@prefix : <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix ts: <http://www.turismosicilia.org/ontology/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.turismosicilia.org/ontology/> .
+
+<http://www.turismosicilia.org/ontology/> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+
+xsd:string owl:equivalentClass xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#isIn
+
+:isIn rdf:type owl:ObjectProperty ;
+      
+      rdfs:range :Comuni ;
+      
+      rdfs:domain :MonumentoStorico .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haCodiceComune
+
+:haCodiceComune rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :MonumentoStorico ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haCodiceISTAT
+
+:haCodiceISTAT rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               owl:equivalentProperty :haCodiceIstat ;
+               
+               rdfs:range xsd:string ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haCodiceIstat
+
+:haCodiceIstat rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Comuni ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haComune
+
+:haComune rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :MonumentoStorico ;
+          
+          rdfs:range xsd:string ;
+          
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haConservazione
+
+:haConservazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :TorriCostiere ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haCronologia
+
+:haCronologia rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Castelli ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haCronologiaF
+
+:haCronologiaF rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Fortezze ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haDenominazione
+
+:haDenominazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :MonumentoStorico ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haGestore
+
+:haGestore rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :Fortezze ;
+           
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haGestoreT
+
+:haGestoreT rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haIconaTorri
+
+:haIconaTorri rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :TorriCostiere ;
+              
+              rdfs:range xsd:anyURI .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haImmagine
+
+:haImmagine rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :MonumentoStorico ;
+            
+            rdfs:range xsd:anyURI ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haLatitudine
+
+:haLatitudine rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :MonumentoStorico ;
+              
+              rdfs:range xsd:double .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haLocalita
+
+:haLocalita rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haLocazioneStorica
+
+:haLocazioneStorica rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:domain :TorriCostiere ;
+                    
+                    rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haLongE
+
+:haLongE rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :TorriCostiere ;
+         
+         rdfs:range xsd:double .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haLongitudine
+
+:haLongitudine rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               rdfs:range xsd:double .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haNome
+
+:haNome rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Comuni ;
+        
+        rdfs:range xsd:string .
+[ rdf:type owl:Axiom ;
+  rdfs:label "" ;
+  owl:annotatedTarget :Comuni ;
+  owl:annotatedSource :haNome ;
+  owl:annotatedProperty rdfs:domain
+] .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haNote
+
+:haNote rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :MonumentoStorico ;
+        
+        rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haProvincia
+
+:haProvincia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :MonumentoStorico ;
+             
+             rdfs:range xsd:string ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haS_L_M
+
+:haS_L_M rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :Fortezze ;
+         
+         rdfs:range xsd:string ;
+         
+         rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haSiglaProvincia
+
+:haSiglaProvincia rdf:type owl:DatatypeProperty ;
+                  
+                  rdfs:domain :Comuni ;
+                  
+                  rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haSitoWeb
+
+:haSitoWeb rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :MonumentoStorico ;
+           
+           rdfs:range xsd:anyURI .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haStatoConservazione
+
+:haStatoConservazione rdf:type owl:DatatypeProperty ;
+                      
+                      rdfs:domain :Fortezze ;
+                      
+                      rdfs:range xsd:string ;
+                      
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haTipo
+
+:haTipo rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :TorriCostiere ;
+        
+        rdfs:range xsd:string ;
+        
+        rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haTipologia
+
+:haTipologia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Fortezze ;
+             
+             rdfs:range xsd:string ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haUbicazione
+
+:haUbicazione rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Fortezze ;
+              
+              rdfs:range xsd:string ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#haUso
+
+:haUso rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :Fortezze ;
+       
+       rdfs:range xsd:string ;
+       
+       rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Castelli
+
+:Castelli rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Comuni
+
+:Comuni rdf:type owl:Class ;
+        
+        rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#Fortezze
+
+:Fortezze rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#MonumentoStorico
+
+:MonumentoStorico rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.semanticweb.org/owl/owlapi/turtle#TorriCostiere
+
+:TorriCostiere rdf:type owl:Class ;
+               
+               rdfs:subClassOf :MonumentoStorico .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

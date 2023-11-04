@@ -1,0 +1,434 @@
+@prefix : <http://www.turismosicilia.org/ontology/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.turismosicilia.org/ontology/> .
+
+<http://www.turismosicilia.org/ontology/> rdf:type owl:Ontology ;
+                                          
+                                          owl:versionIRI <http://www.turismosicilia.org/ontology/> .
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+###  http://www.w3.org/2001/XMLSchema#string
+
+xsd:string owl:equivalentClass xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.turismosicilia.org/ontology/#isIn
+
+:isIn rdf:type owl:ObjectProperty ;
+      
+      rdfs:range :Comuni ;
+      
+      rdfs:domain :MonumentoStorico .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.turismosicilia.org/ontology/#haCodiceComune
+
+:haCodiceComune rdf:type owl:DatatypeProperty ;
+                
+                rdfs:domain :MonumentoStorico ;
+                
+                rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haCodiceISTAT
+
+:haCodiceISTAT rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               owl:equivalentProperty :haCodiceIstat ;
+               
+               rdfs:range xsd:string ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haCodiceIstat
+
+:haCodiceIstat rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Comuni ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haComune
+
+:haComune rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :MonumentoStorico ;
+          
+          rdfs:range xsd:string ;
+          
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haConservazione
+
+:haConservazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :TorriCostiere ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haCronologia
+
+:haCronologia rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Castelli ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haCronologiaF
+
+:haCronologiaF rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Fortezze ;
+               
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haDenominazione
+
+:haDenominazione rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:domain :MonumentoStorico ;
+                 
+                 rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haGestore
+
+:haGestore rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :Fortezze ;
+           
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haGestoreT
+
+:haGestoreT rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haIconaTorri
+
+:haIconaTorri rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :TorriCostiere ;
+              
+              rdfs:range xsd:anyURI .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haImmagine
+
+:haImmagine rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :MonumentoStorico ;
+            
+            rdfs:range xsd:anyURI ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haLatitudine
+
+:haLatitudine rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :MonumentoStorico ;
+              
+              rdfs:range xsd:double .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haLocalita
+
+:haLocalita rdf:type owl:DatatypeProperty ;
+            
+            rdfs:domain :TorriCostiere ;
+            
+            rdfs:range xsd:string ;
+            
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haLocazioneStorica
+
+:haLocazioneStorica rdf:type owl:DatatypeProperty ;
+                    
+                    rdfs:domain :TorriCostiere ;
+                    
+                    rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haLongE
+
+:haLongE rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :TorriCostiere ;
+         
+         rdfs:range xsd:double .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haLongitudine
+
+:haLongitudine rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :MonumentoStorico ;
+               
+               rdfs:range xsd:double .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haNome
+
+:haNome rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :Comuni ;
+        
+        rdfs:range xsd:string .
+[ rdf:type owl:Axiom ;
+  rdfs:label "" ;
+  owl:annotatedTarget :Comuni ;
+  owl:annotatedSource :haNome ;
+  owl:annotatedProperty rdfs:domain
+] .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haNote
+
+:haNote rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :MonumentoStorico ;
+        
+        rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haProvincia
+
+:haProvincia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :MonumentoStorico ;
+             
+             rdfs:range xsd:string ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haS_L_M
+
+:haS_L_M rdf:type owl:DatatypeProperty ;
+         
+         rdfs:domain :Fortezze ;
+         
+         rdfs:range xsd:string ;
+         
+         rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haSiglaProvincia
+
+:haSiglaProvincia rdf:type owl:DatatypeProperty ;
+                  
+                  rdfs:domain :Comuni ;
+                  
+                  rdfs:range xsd:string .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haSitoWeb
+
+:haSitoWeb rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :MonumentoStorico ;
+           
+           rdfs:range xsd:anyURI .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haStatoConservazione
+
+:haStatoConservazione rdf:type owl:DatatypeProperty ;
+                      
+                      rdfs:domain :Fortezze ;
+                      
+                      rdfs:range xsd:string ;
+                      
+                      rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haTipo
+
+:haTipo rdf:type owl:DatatypeProperty ;
+        
+        rdfs:domain :TorriCostiere ;
+        
+        rdfs:range xsd:string ;
+        
+        rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haTipologia
+
+:haTipologia rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Fortezze ;
+             
+             rdfs:range xsd:string ;
+             
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haUbicazione
+
+:haUbicazione rdf:type owl:DatatypeProperty ;
+              
+              rdfs:domain :Fortezze ;
+              
+              rdfs:range xsd:string ;
+              
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+###  http://www.turismosicilia.org/ontology/#haUso
+
+:haUso rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :Fortezze ;
+       
+       rdfs:range xsd:string ;
+       
+       rdfs:subPropertyOf owl:topDataProperty .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.turismosicilia.org/ontology/#Castelli
+
+:Castelli rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.turismosicilia.org/ontology/#Comuni
+
+:Comuni rdf:type owl:Class ;
+        
+        rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.turismosicilia.org/ontology/#Fortezze
+
+:Fortezze rdf:type owl:Class ;
+          
+          rdfs:subClassOf :MonumentoStorico .
+
+
+
+###  http://www.turismosicilia.org/ontology/#MonumentoStorico
+
+:MonumentoStorico rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf owl:Thing .
+
+
+
+###  http://www.turismosicilia.org/ontology/#TorriCostiere
+
+:TorriCostiere rdf:type owl:Class ;
+               
+               rdfs:subClassOf :MonumentoStorico .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Castelli
+                :Fortezze
+                :TorriCostiere
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
