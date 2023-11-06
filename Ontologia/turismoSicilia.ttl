@@ -101,8 +101,12 @@ ts:haConservazione rdf:type owl:DatatypeProperty ;
                  rdfs:domain ts:TorriCostiere ;
                  
                  rdfs:range xsd:string .
+###  http://www.turismosicilia.org/ontology/#haStatoProprietario
+ts:haStatoProprietario rdf:type owl:DatatypeProperty ;
 
+                 rdfs:domain ts:TorriCostiere ;
 
+                 rdfs:range xsd:string .
 
 ###  http://www.turismosicilia.org/ontology/#haCronologia
 

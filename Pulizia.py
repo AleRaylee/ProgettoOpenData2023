@@ -69,6 +69,6 @@ print(comuni)
 '''
 castelli.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\castelli.csv", index=False)
 fortezze.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\forti_fortezze.csv", index=False)
-torri_costiere.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\torri-costiere.csv", index=False)
+torri_costiere.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\torri-costiere.csv",index=False,)
 strutture_ricettive.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\strutture_ricettive.csv", index=False)
 comuni.to_csv("C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_finali\\dataset_csv\\comuni.csv", index=False)

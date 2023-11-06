@@ -17,13 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset\forti-fortezze.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\dataset\mappa-delle-strutture-ricettive.csv">
           <value>
             <Attribute>
@@ -32,13 +25,6 @@
           </value>
         </entry>
         <entry key="\dataset\torri-costiere.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\castelli.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -59,13 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\dataset_finali\dataset_csv\forti-fortezze.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\dataset_finali\dataset_csv\strutture_ricettive.csv">
           <value>
             <Attribute>
@@ -74,27 +53,6 @@
           </value>
         </entry>
         <entry key="\dataset_finali\dataset_csv\torri-costiere.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\forti-fortezze.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\strutture_ricettive.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\dataset_finali\torri-costiere.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
