@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Grafici\conteggio_monumenti.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset\Elenco-comuni-italiani.csv">
           <value>
             <Attribute>
@@ -11,6 +18,13 @@
           </value>
         </entry>
         <entry key="\dataset\castelli.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset\forti_fortezze.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -45,6 +59,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\dataset_finali\dataset_csv\fortezze.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset_finali\dataset_csv\forti_fortezze.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\dataset_finali\dataset_csv\strutture_ricettive.csv">
           <value>
             <Attribute>
@@ -53,6 +81,13 @@
           </value>
         </entry>
         <entry key="\dataset_finali\dataset_csv\torri-costiere.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\dataset_finali\dataset_csv\torri.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
