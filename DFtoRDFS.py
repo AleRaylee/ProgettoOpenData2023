@@ -6,7 +6,7 @@ import requests
 from rdflib import Graph, Literal, Namespace, URIRef, BNode
 from rdflib.namespace import RDF, OWL, XSD
 from SPARQLWrapper import SPARQLWrapper, JSON
-import codecs
+
 
 g = Graph()
 ts = Namespace('http://www.turismosicilia.org/ontology/')
@@ -23,8 +23,6 @@ castelli_df = pd.read_csv(castelli_csv)
 fortezze_df = pd.read_csv(fortezze_csv)
 torri_df = pd.read_csv(torri_csv)
 
-# Define a function for each data type (comuni, castelli, fortezze, torri)
-# Define a function for each data type (comuni, castelli, fortezze, torri)
 def urify(base, name):
     name = name.replace(" ", "_").replace(".", "")
     return base + urllib.parse.quote(name)
@@ -134,11 +132,6 @@ fortezze_df.apply(add_fortezze, axis=1)
 torri_df['Denominazione'] = torri_df['Denominazione'].astype(str)
 torri_df['Note2'] = torri_df['Note2'].astype(str)
 torri_df.apply(add_torri, axis=1)
-
-
-
-
-
 
 g.serialize(destination="C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_completi\\datasetFinale_ttl.ttl",format= 'turtle')
 g.serialize(destination="C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset_completi\\datasetFinale_XML.xml", format="xml")

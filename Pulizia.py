@@ -9,35 +9,6 @@ comuni_csv= "C:\\Users\\harub\\Documents\\GitHub\\ProgettoOpenData2023\\dataset\
 #castelli = pd.read_csv(castelli_csv,sep = ";")
 #print(castelli.head(10))
 
-
-
-# Path to your CSV file
-
-'''
-# Validate the data
-report_fortezze= validate(fortezze_csv)
-print(report_fortezze)
-# Check if there are any errors
-
-report_torri = validate(torri_costiere_csv)
-print(report_torri)
-'''
-with Resource(torri_costiere_csv, encoding='utf-8') as resource:
-  print(resource.encoding)
-  print(resource.path)
-
-with Resource(fortezze_csv, encoding='utf-8') as resource:
-  print(resource.encoding)
-  print(resource.path)
-
-with Resource(castelli_csv, encoding='utf-8') as resource:
-  print(resource.encoding)
-  print(resource.path)
-
-with Resource(comuni_csv, encoding='utf-8') as resource:
-  print(resource.encoding)
-  print(resource.path)
-
 def capitalize_column_name(column_name):
     if column_name not in ['longitude', 'latitude','PRO_COM_T']:
         return column_name.capitalize()
